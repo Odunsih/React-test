@@ -1,0 +1,67 @@
+.stud {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid #58575727;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 5px 5px 5px #585757e8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+  border-radius: 20px;
+  max-width: 250px;
+}
+
+.head {
+  font-size: 30px;
+  color: #2e2d2de8;
+}
+
+.para {
+  font-size: 15px;
+  color: #585757e8;
+}
+
+.student {
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px;
+}
+
+.btn {
+  background-color: rgba(255, 0, 0, 0.61);
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #585757e8;
+  transition: box-shadow 0.5s;
+}
+
+.btn:hover {
+  box-shadow: 5px 5px 5px #585757e8;
+
+}
+
+.welc {
+  background-color: hsla(115, 94%, 33%, 0.747);
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+}
+
+.log {
+  background-color: hsla(14, 94%, 33%, 0.747);
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+}
