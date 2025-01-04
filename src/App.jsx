@@ -3,6 +3,7 @@ import Card from './Card'
 import Student from './Student'
 import './App.css'
 import Greetings from './Greetings'
+import WeatherCard from './components/WeatherCard'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Student name='David' age={18} isStudent={false} />
         <Student name='James' age={25} isStudent={false} />
       </div>
+      <WeatherCard />
     </>
   )
 }
